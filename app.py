@@ -52,3 +52,7 @@ def handle_books():
 def not_found(error):
     return jsonify(error=str(error)), 404
 
+
+# biar jalan lebih mudah
+if __name__ == "__main__":
+    app.run(debug=True)

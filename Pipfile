@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 flask = "==3.1.3"
 flasgger = "*"
+gunicorn = "*"
 
 [dev-packages]
 
